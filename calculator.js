@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/",function(req,res){
-    // res.send("hii baby");
+    // res.send("Hii Baby");
     res.sendFile(__dirname + "/index.html");
 });
 
