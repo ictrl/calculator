@@ -11,9 +11,9 @@ app.get("/",function(req,res){
 
 app.post("/",function(req,res){
     
-    var num1 = Number(req.body.num1);
-    var num2 = Number(req.body.num2);
-    var add = num1 + num2;
+    var n1 = Number(req.body.num1);
+    var n2 = Number(req.body.num2);
+    var add = n1 + n2;
     res.send("Addition : " + add);
     // console.log(req.body);
     
